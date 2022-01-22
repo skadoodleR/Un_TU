@@ -1,0 +1,45 @@
+nohup: 忽略输入
+1178
+89
+================
+lr: 0.01
+num_features: 89
+hidden_dim: 32
+num_gc_layers: 3
+================
+grad:  inf
+self.tau1:  0.8
+tensor(4.4604, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.2678, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.3324, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.2537, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.2476, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.3323, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.1958, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.4032, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(4.2059, device='cuda:0', grad_fn=<NegBackward>)
+grad:  inf
+self.tau1:  0.8
+tensor(2.5567, device='cuda:0', grad_fn=<NegBackward>)
+Epoch 1, Loss 501.9972898006439
+0.7801463131971607 0.7759017818339852
+Traceback (most recent call last):
+  File "gsimclr.py", line 278, in <module>
+    with open('logs/log_' + args.DS + '_' + args.aug, 'a+') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/log_DD_random2'
